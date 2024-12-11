@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Verdana;
+	color: #000000;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+}
+h1 {
+	font-size: 2.3em;
+	line-height: 1.3em;
+	margin: 15px 0;
+	text-align: center;
+	font-weight: 300;
+    font-family: fantasy;
+}
+p {
+	margin: 0 0 1.5em 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+#encabezado-principal{
+    background: #212061;
+	color: white;
+	height: 80px;
+}
+#encabezado-principal a{
+    color: white;
+}
+#logo-encabezado{
+    float: left;
+	padding: 10px 0 0 20px;
+	text-decoration: none;
+}
+#logo-encabezado:hover{
+    color: #b4b4b4;
+}
+#logo-encabezado .nombre-web{
+    display: block;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+#logo-encabezado .info-web{
+    display: block;
+	font-weight: 300;
+	font-size: 0.8em;
+	color: #ffffff;
+}
+.menu{
+    float: right;
+}
+.menu ul{
+    margin: 0;
+	padding: 0;
+	list-style: none;
+	padding-right: 20px;
+}
+.menu ul li{
+    display: inline-block;
+	line-height: 80px;
+}
+.menu ul li a{
+    display: block;
+	padding: 0 10px;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+    background: #38375a;
+}
+#text-principio{
+    background: white;
+	width: 120%;
+	max-width: 1000px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+.contenido1{
+    text-align: center;
+    word-spacing: normal;
+    font-size: 12px;
+    margin: 10px auto;
+    text-decoration: none;
+    background: #212061;
+    color: white;
+    font-family: cursive;
+}
