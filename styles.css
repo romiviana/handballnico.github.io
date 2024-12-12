@@ -3,7 +3,7 @@ body {
 	padding: 0;
 	font-family: Verdana;
 	color: #000000;
-	background: #f2f2f2; 
+	background: #2f2e68; 
 	font-size: 1em;
 	line-height: 1.5em;
 }
@@ -13,7 +13,10 @@ h1 {
 	margin: 15px 0;
 	text-align: center;
 	font-weight: 300;
-    font-family: fantasy;
+    font-family: "Londrina Shadow", sans-serif;
+	font-weight: 400;
+    color: #ffffff;
+	background-color: #000000 ;
 }
 p {
 	margin: 0 0 1.5em 0;
@@ -22,9 +25,11 @@ p {
 img {
 	max-width: 100%;
 	height: auto;
+	text-align: center;
+	padding: 80px;
 }
 #encabezado-principal{
-    background: #212061;
+    background: #000000;
 	color: white;
 	height: 80px;
 }
@@ -37,7 +42,7 @@ img {
 	text-decoration: none;
 }
 #logo-encabezado:hover{
-    color: #b4b4b4;
+    color: #2f2e68;
 }
 #logo-encabezado .nombre-web{
     display: block;
@@ -69,22 +74,37 @@ img {
 	text-decoration: none;
 }
 .menu ul li a:hover{
-    background: #38375a;
+    background:#2f2e68;
+	border: 2px solid black;
 }
 #text-principio{
     background: white;
+	width: 140%;
+	max-width: 1100px;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0,0,0,.1);
+	text-align: center;
+}
+.contenido1{
+    text-align: center;
+    font-size: 16px;
+    margin: 20px auto;
+    text-decoration: none;
+    background: #000000;
+    color: white;
+    font-family: arial;
+	line-height: 22px;
+	padding: 12px 12px 2px 12px
+}
+#parrafo1{
+    background: rgb(0, 0, 0);
+	color: #ffffff;
 	width: 120%;
 	max-width: 1000px;
 	margin: 20px auto;
 	box-shadow: 0 0 10px rgba(0,0,0,.1);
-}
-.contenido1{
-    text-align: center;
-    word-spacing: normal;
-    font-size: 12px;
-    margin: 10px auto;
-    text-decoration: none;
-    background: #212061;
-    color: white;
-    font-family: cursive;
+	text-align: center;
+	font-family: Arial;
+	padding: 12px 12px 1px 12px;
+	font-size: 16px;
 }
