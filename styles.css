@@ -108,3 +108,11 @@ img {
 	padding: 12px 12px 1px 12px;
 	font-size: 16px;
 }
+img{
+    text-aling: left
+}
+/*poner aca imagenes de flores para decorar fondo*
+/*poner con id cada imagen*/
+img{
+	text-aling: right
+	
